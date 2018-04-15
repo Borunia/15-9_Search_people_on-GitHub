@@ -25,7 +25,6 @@ body {
     margin-bottom: 30px;
   }
 
-
 .userList {
     display: grid;
     grid-gap: 25px;
@@ -34,8 +33,8 @@ body {
 
 .userList div {
     display: grid;
-    background: rgba(10, 9, 9, 0.9);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background: rgba(10, 9, 9, .9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .9);
     padding: 20px;
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;

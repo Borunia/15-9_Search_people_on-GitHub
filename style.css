@@ -1,0 +1,48 @@
+body {
+    background-image: url('https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 90px);
+    margin: 50px;
+    font-size: 25px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 20px;
+    align-content: center;
+  }
+  
+  label {
+    font-size: 50px;
+    justify-self: center;
+    color:lightskyblue;
+  }
+  
+  input {
+    justify-self: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+.userList {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.userList div {
+    display: grid;
+    background: rgba(10, 9, 9, .9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .9);
+    padding: 20px;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+a {
+    text-decoration: none;
+    color:lightgreen;
+  }
